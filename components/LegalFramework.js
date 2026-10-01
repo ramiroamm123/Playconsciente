@@ -75,12 +75,12 @@ export default function LegalFramework() {
           className="mt-6 border-2 border-deep bg-deep p-6 text-mist sm:p-7"
         >
           <p className="font-display text-sm font-semibold uppercase tracking-wide">
-            Advertencia legal — Mecanismos de recompensa aleatoria ("Loot Boxes")
+            Advertencia legal — Mecanismos de recompensa aleatoria (&ldquo;Loot Boxes&rdquo;)
           </p>
           <p className="mt-2 font-body text-sm leading-relaxed text-mist/90 sm:text-base">
             En Colombia no existe, a la fecha, una regulación específica que
             clasifique los mecanismos de recompensa aleatoria dentro de los
-            videojuegos ("loot boxes") como una modalidad de apuesta, a
+            videojuegos (&ldquo;loot boxes&rdquo;) como una modalidad de apuesta, a
             diferencia de lo dispuesto en jurisdicciones como Austria o los
             Países Bajos. La Superintendencia de Industria y Comercio (SIC),
             autoridad nacional en materia de protección al consumidor, ha

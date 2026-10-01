@@ -26,9 +26,9 @@ const groups = [
             Según Zyda (2005)
           </p>
           <p className="mt-1 font-body text-sm leading-relaxed text-deep/85">
-            Los describe como una "prueba mental, llevada a cabo frente a
-            una computadora de acuerdo con ciertas reglas, cuyo fin es la
-            diversión o esparcimiento".
+            Los describe como una &ldquo;prueba mental, llevada a cabo frente
+            a una computadora de acuerdo con ciertas reglas, cuyo fin es la
+            diversión o esparcimiento&rdquo;.
           </p>
         </div>
       </div>
@@ -41,7 +41,7 @@ const groups = [
       <div className="space-y-4">
         <div className="rounded-xl bg-mist p-4">
           <p className="font-mono text-[10px] uppercase tracking-wider text-steel-dark">
-            Años 70-90 · El "pánico moral"
+            Años 70-90 · El &ldquo;pánico moral&rdquo;
           </p>
           <p className="mt-1 font-body text-sm leading-relaxed text-deep/85">
             Títulos como Death Race (1976) generaron las primeras protestas
@@ -67,8 +67,8 @@ const groups = [
           </p>
           <p className="mt-1 font-body text-sm leading-relaxed text-deep/85">
             La pregunta cambió: ya no se trata de si los videojuegos son
-            "malos", sino de entender bajo qué condiciones son beneficiosos
-            y bajo cuáles representan un riesgo real.
+            &ldquo;malos&rdquo;, sino de entender bajo qué condiciones son
+            beneficiosos y bajo cuáles representan un riesgo real.
           </p>
         </div>
       </div>
