@@ -73,6 +73,9 @@ components/
   Team.js             → Sección 4: el equipo
   Surveys.js          → Sección 5: nuestras encuestas + conclusión crítica
   Solution.js         → Sección 6: por qué y cómo creamos PlayConsciente
+  LeafletShowcase.js  → subsecciones que se despliegan al hacer clic en "Folletos"
+                        (diseño del folleto + galería de la entrega)
+  PreventionFlashcards.js → tarjetas volteables con los tips de prevención
   TheorySupport.js     → Sección 7: sustento teórico + glosario
   LegalFramework.js    → Sección 8: marco legal
   Footer.js
@@ -122,6 +125,17 @@ el pie de página.
 Si más adelante quieres **reemplazarlo por otra versión** del logo, solo
 tienes que sobrescribir ese mismo archivo (manteniendo el nombre
 `logo-playconsciente.png`) — no necesitas tocar nada del código.
+
+### Imágenes de los folletos
+
+Las imágenes de la sección de folletos están en:
+
+- `public/assets/images/folleto/` → páginas del tríptico (`folleto-1.jpg` exterior, `folleto-2.jpg` interior)
+- `public/assets/images/entrega/` → 9 fotos de la entrega (`entrega-01.jpg` a `entrega-09.jpg`)
+
+Para cambiar una, sobrescribe el archivo con el mismo nombre. Para agregar o
+quitar fotos de la galería, edita la lista `deliveryPhotos` al inicio de
+`components/LeafletShowcase.js`.
 
 Si quieres agregar otras fotos (del colegio, de los folletos impresos, etc.), el proceso es el
 mismo: guárdalas en `public/assets/images/`, e insértalas con
